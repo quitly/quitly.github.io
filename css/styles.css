@@ -1,0 +1,254 @@
+    body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    width: 100%;
+    overflow-x: hidden;
+    }
+    section#hero {
+        text-align: center;
+    }
+    section#hero h1 {
+        text-transform: uppercase;
+    }
+    section#hero a img {
+      margin: 30px auto!important;
+      display: block;
+      text-align: center;
+    }
+    section#hero .quitly-logo {
+      margin: 0 auto!important;
+      text-align: center!important;
+    }
+    section#order-starter-kit, section#make-the-switch, section#track-your-smoking {
+        height: auto;
+        overflow: hidden;
+        border-bottom: 1px solid #f3f3f3;
+    }
+    section#how-it-works h1 {
+      text-transform: uppercase;
+      margin: 40px 0 auto;
+      padding: 50px 0;
+      font-size: 45px;
+    }
+    section#make-the-switch {
+        padding: 60px 0 0 0;
+    }
+    section#order-starter-kit img.step-img,
+    section#make-the-switch img.step-img,
+    section#track-your-smoking img.step-img {
+        max-width: 600px;
+        margin: 0 auto!important;
+    }
+    section#order-starter-kit h2, section#make-the-switch h2, section#track-your-smoking h2 {
+        text-transform: uppercase;
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+    section#order-starter-kit p, section#make-the-switch p, section#track-your-smoking p {
+        font-size: 18px;
+        line-height: 1.6;
+        width: 80%;
+        margin: 10px auto 30px auto;
+        text-align: left;
+    }
+    section#track-your-smoking img.numbers-img,
+    section#make-the-switch img.numbers-img {
+        margin: 80px auto 20px auto;
+        display: block;
+        width: 100px;
+    }
+  section#order-starter-kit img.numbers-img {
+        margin: 40px auto 20px auto;
+        display: block;
+        width: 100px;
+  }
+
+    section#order-starter-kit img.iphone, section#track-your-smoking img.iphone, section#make-the-switch img.iphone {
+        width: 300px;
+    }
+
+    .right-col {
+        max-height: 790px;
+        margin-top: 20px;
+        overflow: hidden;
+        position: relative!important;
+    }
+
+    section#order-starter-kit .right-col {
+        max-height: 790px;
+        position: relative!important;
+    }
+    section#make-the-switch img.starter-kit {
+        width: 620px;
+    }
+    section#order-starter-kit h4 {
+        font-size: 30px;
+    }
+    section#order-starter-kit h4 span {
+        font-size: 30px;
+        font-weight: bold;
+    }
+    #hero-video {
+        z-index: 1;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .placeholder {
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: 20;
+        left: 0;
+        bottom: 0;
+    }
+    .video-container {
+        height: auto;
+        margin: 80px 20px 20px 0;
+        width: 100%;
+        position: relative;
+        margin: 0 auto;
+        border-bottom: 1px solid #f3f3f3;
+    }
+    .download-container {
+        background: black;
+        padding: 120px 0;
+        margin-top: -20px;
+        position: relative;
+    }
+    .download-container p {
+        text-align: center;
+        color: rgba(76, 201, 244, 1);
+        opacity: .9;
+        font-size: 25px;
+        margin: 45px 0 40px 0;
+        font-weight: 400;
+    }
+    .logos-cont {
+        opacity: .8;
+    }
+    .download-container h1 {
+        text-align: center;
+        color: white;
+        text-transform: uppercase;
+        font-size: 60px;
+        font-weight: 600;
+        margin-top: 60px!important;
+        width: 75%;
+        margin: 0 auto;
+    }
+    .download-container .quitly-logo {
+        width: 320px;
+        height: auto;
+        text-align: center;
+        margin: 0 auto;
+        display: block;
+    }
+    video#hero-video {
+        z-index: 90;
+        width: 100%;
+        max-height: 700px;
+        margin: 0 auto;
+    }
+    .njoy-cont, .quit-tea-cont {
+        margin-top: 20px;
+    }
+    img.download-btn {
+        width: 230px;
+        display: block;
+        margin: 0 auto;
+        margin-top: 30px;
+        text-align: center;
+    }
+    .ion-ios-arrow-down {
+        font-size: 80px;
+        color: rgba(0, 0, 0, .4);
+        display: block;
+        opacity: .5;
+        text-align: center;
+        z-index: 101;
+        position: absolute;
+        bottom: 30px;
+        right: 0;
+        -webkit-transition: .6s;
+        transition: .6s;
+        left: 0;
+    }
+    .ion-ios-arrow-down:hover {
+        opacity: 1;
+    }
+    img.backdrop-img {
+        width: 90%;
+        height: auto;
+        margin: 0 auto;
+        background: red;
+        display: block;
+    }
+    section#make-the-switch img.step-img {
+        display: block;
+    }
+    section#track-your-smoking img.step-img {
+        background: blue;
+        text-align: center!important;
+        bottom: 20px;
+        margin-top: 210px!important;
+
+    }
+    @media (max-width: 991px) {
+        .download-container h1 {
+            font-size: 40px;
+        }
+        section#track-your-smoking img.step-img {
+            margin-top: 60px!important;
+            text-align: center!important;
+            bottom: 20px;
+        }
+
+        .download-container .quitly-logo {
+            width: 270px;
+        }
+        .video-container video {
+            padding-top: 40px;
+        }
+        .logos-cont .col-md-3 {
+            margin-top: 30px;
+        }
+    }
+    @media (min-width: 601px) {
+        img.backdrop-img {
+            display: none;
+        }
+    }
+    @media (max-width: 601px) {
+        img.download-btn {
+            width: 60%;
+            padding: 20px;
+            margin: 0 auto;
+        }
+        .video-container video {
+            padding-top: 40px;
+            background: blue;
+            display: none;
+        }
+        .video-container .placeholder {
+            display: block;
+        }
+        .download-container .quitly-logo {
+            width: 50%;
+        }
+        .download-container {
+            padding-top: 20px;
+        }
+        .download-container p {
+            width: 80%;
+            margin: 15px auto 30px auto;
+        }
+        .download-container h1 {
+            font-size: 6vw;
+        }
+
+      section#order-starter-kit img.step-img, section#make-the-switch img.step-img, section#track-your-smoking img.step-img {
+        max-width: 100%!important;
+      }
+
+
+      }
