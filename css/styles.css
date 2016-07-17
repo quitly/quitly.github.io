@@ -8,17 +8,19 @@
       color: #4CCEAD;
     }
     section#hero {
-        text-align: center;
+      position: relative;
+      text-align: center;
+      padding-bottom: 200px;
     }
     section#hero h1 {
         font-family: "Merriweather", serif!important;
         line-height: 1.4;
         max-width: 550px;
         font-size: 50px;
-        margin: 100px auto 20px auto;
+        margin: 180px auto 20px auto;
     }
     section#hero a img {
-      margin: 30px auto!important;
+      margin: 60px auto 30px auto!important;
       display: block;
       text-align: center;
     }
@@ -33,6 +35,10 @@
         overflow: hidden;
         border-bottom: 1px solid #f3f3f3;
     }
+    section#how-it-works {
+      padding-top: 120px;
+    }
+
     section#how-it-works h1 {
       text-transform: uppercase;
       font-family: "Merriweather", serif!important;
@@ -135,6 +141,10 @@
         margin: 45px 0 40px 0;
         font-weight: 400;
     }
+    .download-container p.pack-life {
+      color: white;
+      font-size: 14px;
+    }
     .logos-cont {
         opacity: .8;
     }
@@ -180,11 +190,12 @@
         text-align: center;
         z-index: 101;
         position: absolute;
-        bottom: 30px;
+        bottom: -10px;
         right: 0;
         -webkit-transition: .6s;
         transition: .6s;
         left: 0;
+        cursor: pointer;
     }
     .ion-ios-arrow-down:hover {
         opacity: 1;
