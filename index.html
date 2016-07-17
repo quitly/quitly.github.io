@@ -35,15 +35,55 @@
 </head>
 
 <body>
-  <nav class="navbar">
+
+  <nav class="navbar ">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">
+        <img class="img-responsive quitly-logo" src="img/quitly-logo-full.png" alt="Quitly Logo">
+        <ul class="nav navbar-nav mobile hidden-md hidden-sm hidden-lg">
+         <li><a href="#" class="text-right">Corporate Login</a></li>
+        </ul>
+      </a>
+
+
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <!-- <ul class="nav navbar-nav">
+       <li><a href="#" class="text-right">Corporate Login</a></li>
+      </ul> -->
+
+      <ul class="nav navbar-nav navbar-right">
+       <li><a href="#" class="text-right">Corporate Login</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+
+
+  <!-- <nav class="navbar">
     <div class="container">
       <a href="#">
         <img class="img-responsive quitly-logo" src="img/quitly-logo-full.png" alt="Quitly Logo">
       </a>
 
-      <a href="#" class="text-right">Corporate login</a>
+      <ul class="nav navbar-nav navbar-right">
+        <a href="#" class="text-right">Corporate login</a>
+      </ul>
+
+
     </div>
-  </nav>
+  </nav> -->
   <section id="hero">
     <div class="container">
       <div class="row text-center">
@@ -105,7 +145,7 @@
           <!-- <p>Use our in app shop to find the right tobacco alternative for you.</p> -->
           <img class="iphone" src="img/store.jpg" alt="quitly iphone screenshot">
         </div>
-        <div class="col-md-offset-1 col-md-4 text-center">
+        <div class=" col-md-4 text-center">
           <img class="step-img" src="img/step-2.jpg" alt="guy smoking cigarette">
         </div>
       </div>
