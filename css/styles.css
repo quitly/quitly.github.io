@@ -10,14 +10,14 @@
     section#hero {
       position: relative;
       text-align: center;
-      padding-bottom: 200px;
+      padding-bottom: 280px;
     }
     section#hero h1 {
         font-family: "Merriweather", serif!important;
         line-height: 1.4;
         max-width: 550px;
         font-size: 50px;
-        margin: 180px auto 20px auto;
+        margin: 120px auto 20px auto;
     }
     section#hero a img {
       margin: 60px auto 30px auto!important;
