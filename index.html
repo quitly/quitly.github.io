@@ -96,7 +96,7 @@
         <a href="corporate-offering.html">Learn more about our corporate offerings <span class="ion-ios-arrow-forward"></span></a>
       </div>
     </div>
-    <i class="ion-ios-arrow-down"></i>
+    <a href="#how-it-works" name="how-it-works" class="ion-ios-arrow-down"></a>
   </section>
 
   <!-- <div class="video-container">
@@ -181,33 +181,18 @@
   </div>
 </body>
 
+
+<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
+
+
 <script>
 
-
-videos = document.querySelectorAll("video");
-for (var i = 0, l = videos.length; i < l; i++) {
-  var video = videos[i];
-  var src = video.src || (function () {
-      var sources = video.querySelectorAll("source");
-      for (var j = 0, sl = sources.length; j < sl; j++) {
-          var source = sources[j];
-          var type = source.type;
-          var isMp4 = type.indexOf("mp4") != -1;
-          if (isMp4) return source.src;
-      }
-      return null;
-  })();
-  if (src) {
-      var isYoutube = src && src.match(/(?:youtu|youtube)(?:\.com|\.be)\/([\w\W]+)/i);
-      if (isYoutube) {
-          var id = isYoutube[1].match(/watch\?v=|[\w\W]+/gi);
-          id = (id.length > 1) ? id.splice(1) : id;
-          id = id.toString();
-          var mp4url = "http://www.youtubeinmp4.com/redirect.php?video=";
-          video.src = mp4url + id;
-      }
-  }
-}
+  $('a').click(function(){
+      $('html, body').animate({
+          scrollTop: $( $(this).attr('href') ).offset().top
+      }, 500);
+      return false;
+  });
 </script>
 
 
