@@ -1,16 +1,16 @@
     body {
-    font-family: 'Open Sans', sans-serif;
-    margin: 0;
-    width: 100%;
-    overflow-x: hidden;
+        font-family: 'Open Sans', sans-serif;
+        margin: 0;
+        width: 100%;
+        overflow-x: hidden;
     }
     .green {
-      color: #4CCEAD;
+        color: #4CCEAD;
     }
     section#hero {
-      position: relative;
-      text-align: center;
-      min-height: 90vh!important;
+        position: relative;
+        text-align: center;
+        min-height: 90vh!important;
         /*padding-bottom: 280px;*/
     }
     section#hero h1 {
@@ -21,45 +21,41 @@
         margin: 120px auto 20px auto;
     }
     section#hero a img {
-      margin: 20px auto 30px auto!important;
-      display: block;
-      text-align: center;
+        margin: 20px auto 30px auto!important;
+        display: block;
+        text-align: center;
     }
     nav.navbar .quitly-logo {
-      /*margin: 0 auto!important;*/
-      /*text-align: center!important;*/
-      width: 140px;
-      /*margin-top: 30px;*/
+        /*margin: 0 auto!important;*/
+        /*text-align: center!important;*/
+        width: 140px;
+        /*margin-top: 30px;*/
     }
     nav .navbar-right li {
-      margin-top: 10px;
+        margin-top: 10px;
     }
     nav .mobile li {
-      margin-top: 10px;
+        margin-top: 10px;
     }
-
     section#order-starter-kit, section#make-the-switch, section#track-your-smoking {
         height: auto;
         overflow: hidden;
         border-bottom: 1px solid #f3f3f3;
     }
     section#how-it-works {
-      padding-top: 20px;
+        padding-top: 20px;
     }
-
     section#how-it-works h1 {
-      text-transform: uppercase;
-      font-family: "Merriweather", serif!important;
-      line-height: 1.4;
-      padding: 90px 0;
-      font-size: 45px;
+        text-transform: uppercase;
+        font-family: "Merriweather", serif!important;
+        line-height: 1.4;
+        padding: 90px 0;
+        font-size: 45px;
     }
     section#make-the-switch {
         padding: 60px 0 0 0;
     }
-    section#order-starter-kit img.step-img,
-    section#make-the-switch img.step-img,
-    section#track-your-smoking img.step-img {
+    section#order-starter-kit img.step-img, section#make-the-switch img.step-img, section#track-your-smoking img.step-img {
         max-width: 600px;
         margin: 0 auto!important;
     }
@@ -77,29 +73,25 @@
         margin: 10px auto 30px auto;
         text-align: left;
     }
-    section#track-your-smoking img.numbers-img,
-    section#make-the-switch img.numbers-img {
+    section#track-your-smoking img.numbers-img, section#make-the-switch img.numbers-img {
         margin: 80px auto 20px auto;
         display: block;
         width: 100px;
     }
-  section#order-starter-kit img.numbers-img {
+    section#order-starter-kit img.numbers-img {
         margin: 40px auto 20px auto;
         display: block;
         width: 100px;
-  }
-
+    }
     section#order-starter-kit img.iphone, section#track-your-smoking img.iphone, section#make-the-switch img.iphone {
         width: 300px;
     }
-
     .right-col {
         max-height: 790px;
         margin-top: 20px;
         overflow: hidden;
         position: relative!important;
     }
-
     section#order-starter-kit .right-col {
         max-height: 790px;
         position: relative!important;
@@ -150,8 +142,8 @@
         font-weight: 400;
     }
     .download-container p.pack-life {
-      color: white;
-      font-size: 14px;
+        color: white;
+        font-size: 14px;
     }
     .logos-cont {
         opacity: .8;
@@ -223,7 +215,6 @@
         text-align: center!important;
         bottom: 20px;
         margin-top: 210px!important;
-
     }
     @media (max-width: 991px) {
         .download-container h1 {
@@ -234,7 +225,6 @@
             text-align: center!important;
             bottom: 20px;
         }
-
         .download-container .quitly-logo {
             width: 270px;
         }
@@ -277,10 +267,13 @@
         .download-container h1 {
             font-size: 6vw;
         }
+        section#order-starter-kit img.step-img, section#make-the-switch img.step-img, section#track-your-smoking img.step-img {
+            max-width: 100%!important;
+        }
+    }
 
-      section#order-starter-kit img.step-img, section#make-the-switch img.step-img, section#track-your-smoking img.step-img {
-        max-width: 100%!important;
-      }
-
-
-      }
+    @media (max-height: 625px) {
+        .ion-ios-arrow-down  {
+          display: none;
+        }
+    }
