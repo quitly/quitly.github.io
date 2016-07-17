@@ -10,7 +10,8 @@
     section#hero {
       position: relative;
       text-align: center;
-      padding-bottom: 280px;
+      min-height: 90vh!important;
+        /*padding-bottom: 280px;*/
     }
     section#hero h1 {
         font-family: "Merriweather", serif!important;
@@ -20,7 +21,7 @@
         margin: 120px auto 20px auto;
     }
     section#hero a img {
-      margin: 60px auto 30px auto!important;
+      margin: 20px auto 30px auto!important;
       display: block;
       text-align: center;
     }
