@@ -11,7 +11,11 @@
         text-align: center;
     }
     section#hero h1 {
-        text-transform: uppercase;
+        font-family: "Merriweather", serif!important;
+        line-height: 1.4;
+        max-width: 550px;
+        font-size: 50px;
+        margin: 100px auto 20px auto;
     }
     section#hero a img {
       margin: 30px auto!important;
@@ -31,8 +35,9 @@
     }
     section#how-it-works h1 {
       text-transform: uppercase;
-      margin: 40px 0 auto;
-      padding: 50px 0;
+      font-family: "Merriweather", serif!important;
+      line-height: 1.4;
+      padding: 90px 0;
       font-size: 45px;
     }
     section#make-the-switch {
@@ -45,9 +50,11 @@
         margin: 0 auto!important;
     }
     section#order-starter-kit h2, section#make-the-switch h2, section#track-your-smoking h2 {
-        text-transform: uppercase;
+        font-family: "Merriweather", serif!important;
+        line-height: 1.4;
         font-size: 40px;
         margin-bottom: 20px;
+        text-align: left;
     }
     section#order-starter-kit p, section#make-the-switch p, section#track-your-smoking p {
         font-size: 18px;
@@ -134,10 +141,11 @@
     .download-container h1 {
         text-align: center;
         color: white;
-        text-transform: uppercase;
         font-size: 60px;
         font-weight: 600;
         margin-top: 60px!important;
+        font-family: "Merriweather", serif!important;
+        line-height: 1.4;
         width: 75%;
         margin: 0 auto;
     }
